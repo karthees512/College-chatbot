@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>P.K.N Arts & Science College ChatBot</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="chat-wrapper">
+    <div class="chat-container">
+      <div class="chat-header">
+        <div class="header-left">
+          <img src="/static/logo.png" alt="College Logo" class="logo">
+          <h2>P.K.N Arts & Science College ChatBot</h2>
+        </div>
+        <button id="theme-toggle" class="theme-btn">🌙</button>
+      </div>
+
+      <div id="chat-box" class="chat-box"></div>
+
+      <div class="chat-input">
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <button id="send-btn">➤</button>
+      </div>
+    </div>
+  </div>
+
+  <audio id="send-sound" src="/static/send.mp3"></audio>
+  <audio id="receive-sound" src="/static/receive.mp3"></audio>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
